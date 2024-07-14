@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+        <ul class="nav-tabs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </header>
+
+    <div class="main">
+        <div class="text-block">
+            <h1>THAT'S WHAT
+                <br>
+                <span>I LIKE</span>
+            </h1>
+            <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad ab molestiae dignissimos! Blanditiis consequatur, animi ipsam harum, recusandae molestias nostrum hic voluptate perspiciatis aliquam doloribus corporis quos sint necessitatibus!</p>
+            <button>View all products</button>
+        </div>
+        <div class="img-block">
+            <img src="img/pepsi001.png" class="pepsi">
+        </div>
+        
+    </div>
+    <ul class="choice-block">
+        <li><a href="#" onclick="imgSlider('img/pepsi001.png');changeBgColor('#0062be')"> <img src="img/pepsi001.png"></a></li>
+        <li><a href="#" onclick="imgSlider('img/pepsi002.png');changeBgColor('#e60c2c')"> <img src="img/pepsi002.png"></a></li>
+        <li><a href="#" onclick="imgSlider('img/pepsi003.png');changeBgColor('#1e1e1e')"> <img src="img/pepsi003.png"></a></li>
+    </ul>
+
+    <ul class="link-block">
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></i></a></li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
